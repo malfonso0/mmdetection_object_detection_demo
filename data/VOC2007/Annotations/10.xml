@@ -1,86 +1,62 @@
 <annotation>
-	<folder>images</folder>
+	<folder>ImageSets</folder>
 	<filename>10.jpg</filename>
-	<path>E:\Learning_Resources\Deep_learning\my_data_sets\DATASETS_IMAGE\object_detection_demo\images\10.jpg</path>
+	<path>/Users/work/GoogleDriveASU/Projects/mmdetection_object_detection_demo/data/VOCdevkit/VOC2007/ImageSets/10.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>800</width>
-		<height>600</height>
+		<width>1000</width>
+		<height>800</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
+	<object>
+		<name>brand</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>33</ymin>
+			<xmax>430</xmax>
+			<ymax>103</ymax>
+		</bndbox>
+	</object>
 	<object>
 		<name>date</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>451</xmin>
-			<ymin>182</ymin>
-			<xmax>695</xmax>
-			<ymax>359</ymax>
+			<xmin>760</xmin>
+			<ymin>102</ymin>
+			<xmax>926</xmax>
+			<ymax>130</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>fig</name>
+		<name>total</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>256</xmin>
-			<ymin>27</ymin>
-			<xmax>381</xmax>
-			<ymax>192</ymax>
+			<xmin>810</xmin>
+			<ymin>284</ymin>
+			<xmax>930</xmax>
+			<ymax>306</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>fig</name>
+		<name>address</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>267</xmin>
-			<ymin>266</ymin>
-			<xmax>402</xmax>
-			<ymax>489</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hazelnut</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>208</xmin>
-			<ymin>193</ymin>
-			<xmax>313</xmax>
-			<ymax>266</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hazelnut</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>113</xmin>
-			<ymin>295</ymin>
-			<xmax>226</xmax>
-			<ymax>397</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>hazelnut</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>183</xmin>
-			<ymin>359</ymin>
-			<xmax>275</xmax>
-			<ymax>459</ymax>
+			<xmin>535</xmin>
+			<ymin>46</ymin>
+			<xmax>752</xmax>
+			<ymax>87</ymax>
 		</bndbox>
 	</object>
 </annotation>
