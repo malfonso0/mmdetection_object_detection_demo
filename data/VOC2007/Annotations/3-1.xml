@@ -1,7 +1,7 @@
-<?xml version="1.0" ?><annotation>
-	<folder>teo</folder>
+<annotation>
+	<folder>JPEGImages</folder>
 	<filename>3-1.jpg</filename>
-	<path>C:\Users\juan.mercol\neoris.com\Team site - PROPOSALS\SANTANDER - BANK CHECKS - ARG\teo\3-1.jpg</path>
+	<path>C:\Source\mmdetection_object_detection_demo\data\VOC2007\JPEGImages\3-1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>741</xmin>
-			<ymin>112</ymin>
+			<xmin>734</xmin>
+			<ymin>108</ymin>
 			<xmax>813</xmax>
-			<ymax>144</ymax>
+			<ymax>142</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -92,7 +92,7 @@
 			<xmin>228</xmin>
 			<ymin>239</ymin>
 			<xmax>353</xmax>
-			<ymax>256</ymax>
+			<ymax>258</ymax>
 		</bndbox>
 	</object>
 </annotation>

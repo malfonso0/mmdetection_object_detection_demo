@@ -1,7 +1,7 @@
-<?xml version="1.0" ?><annotation>
-	<folder>lote-5</folder>
+<annotation>
+	<folder>JPEGImages</folder>
 	<filename>20200714_161156.jpg</filename>
-	<path>C:\Users\juan.mercol\neoris.com\Team site - PROPOSALS\SANTANDER - BANK CHECKS - ARG\photos\lote-5\20200714_161156.jpg</path>
+	<path>C:\Source\mmdetection_object_detection_demo\data\VOC2007\JPEGImages\20200714_161156.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>224</xmin>
 			<ymin>271</ymin>
-			<xmax>690</xmax>
-			<ymax>320</ymax>
+			<xmax>685</xmax>
+			<ymax>317</ymax>
 		</bndbox>
 	</object>
 	<object>

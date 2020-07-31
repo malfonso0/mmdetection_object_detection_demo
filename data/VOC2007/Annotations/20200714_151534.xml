@@ -1,7 +1,7 @@
-<?xml version="1.0" ?><annotation>
-	<folder>fis</folder>
+<annotation>
+	<folder>JPEGImages</folder>
 	<filename>20200714_151534.jpg</filename>
-	<path>C:\Users\juan.mercol\neoris.com\Team site - PROPOSALS\BANK CHECKS - ARG\vertical_only\fis\20200714_151534.jpg</path>
+	<path>C:\Source\mmdetection_object_detection_demo\data\VOC2007\JPEGImages\20200714_151534.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>202</xmin>
 			<ymin>293</ymin>
-			<xmax>664</xmax>
-			<ymax>318</ymax>
+			<xmax>670</xmax>
+			<ymax>320</ymax>
 		</bndbox>
 	</object>
 	<object>
