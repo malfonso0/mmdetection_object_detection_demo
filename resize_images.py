@@ -21,23 +21,30 @@ if __name__ == "__main__":
         type=str,
     )
     parser.add_argument(
-        "--ext", help="Raw image files extension to resize.", default="jpg", type=str
+        "--ext-in", help="Raw image files extension to resize.", default="jpg,png", type=str
+    )
+    parser.add_argument(
+        "--ext-out", help="Raw image files extension to resize.", default="jpg", type=str
     )
     parser.add_argument(
         "--target-size",
         help="Target size to resize as a tuple of 2 integers.",
-        default="(800, 600)",
+        default="(1000, 600)",
         type=str,
     )
     args = parser.parse_args()
 
     raw_dir = args.raw_dir
     save_dir = args.save_dir
-    ext = args.ext
+    ext_in = args.ext_in
+    ext_out = args.ext_out
     target_size = eval(args.target_size)
     msg = "--target-size must be a tuple of 2 integers"
     assert isinstance(target_size, tuple) and len(target_size) == 2, msg
-    fnames = glob.glob(os.path.join(raw_dir, "*.{}".format(ext)))
+    fnames=[]
+    for ext in ext_in.split(','):
+        tmp = glob.glob(os.path.join(raw_dir, "*.{}".format( ext.strip() ) ) )
+        fnames.extend(tmp)
     os.makedirs(save_dir, exist_ok=True)
     print(
         "{} files to resize from directory `{}` to target size:{}".format(
@@ -48,7 +55,7 @@ if __name__ == "__main__":
         print(".", end="", flush=True)
         img = cv2.imread(fname)
         img_small = cv2.resize(img, target_size)
-        new_fname = "{}.{}".format(str(i), ext)
+        new_fname = "{}.{}".format(str(i), ext_out)
         small_fname = os.path.join(save_dir, new_fname)
         cv2.imwrite(small_fname, img_small)
     print(
